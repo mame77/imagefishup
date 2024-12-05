@@ -1,0 +1,39 @@
+<DOCTYPE html>
+<html lang+"ja">
+    <head>
+        <meta vharset="UTF-8">
+        <title>画像解像度up</title>
+        <link href="static/fish.css/style.css" rel="stylesheet">
+
+    </head>
+
+
+    <body>
+        <h1>画像解像度up<h1>
+
+        <from enctype="multipart/form-data">
+            <div id="flex">
+            <div id="dragDropArea">
+                <div id="preciewArea"></div>
+                <div id="drag-drop-comment" class ="drag-drop-inside">
+                    <p class ="drag-drop-info">ここにファイルをドロップ</p>
+                    <p>または</p>
+                    <p class"drag-drop-buttons">
+                        <input id="fileInput"type=file accept="image/*" value="ファイルを選択" name="img" onChange="photoPreview(event)">
+                    </p>
+                </div>
+            </div>
+            <img id="receiveImageArea"></div></from>img>
+        </div>
+        <button id="clearButton" type="submit">クリア</button>
+        <button id="sendButton" type="submit" formmethod="post">送信</button>
+    </form>
+
+    <script type="text/javascript" src="static/fish.js/client.js"></script>
+
+
+
+</body>
+
+</html>
+
